@@ -3,19 +3,25 @@
 int mnoz(int a, int b){
 	return a*b;
 }
+int dodaj(int a, int b){
+	return a + b;
+}
 
 
 int main()	/* Moze byc zapisane 'int main(void)'	*/
 {
-	int a = 2, b = 6;
-	int wynik;
+	int a = 2, b = 6;		/* deklaracja wraz z inicjacja */
+	char wybor = '+';		/* zadeklarowanie zmiennej i jej typu */
 
+	/* if(wyrazenie) (blok jesli wyrazenie prawdziwe)
+	   else (blok jesli wyrazenie falszywe);	*/
 
-	wynik = mnoz(a, b);
+	if(wybor == '*'){
+		printf("Wynik mnozenia: %i\n", mnoz(a, b));
+	}else{
+		 printf("Wynik dodawania: %i\n", dodaj(a,b));
+	};/* <= ten srednik jest opcjonalny jesli wystepuje klamra*/
 
-	printf("Wynik mnozenia: %i\n", wynik);		/* '\n' lamie linie*/
-
-	
 	return 0;
 }
 

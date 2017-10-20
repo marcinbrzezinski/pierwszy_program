@@ -22,8 +22,11 @@ int main()	/* Moze byc zapisane 'int main(void)'	*/
 {
 
 
-	int a = 2, b = 6;		/* deklaracja wraz z inicjacja */
+	int a, b;
 	char wybor;
+
+	printf("Podaj wartosc pierwszego argumentu:"); scanf("%i", &a);
+	printf("Podaj wartosc drugiego argumentu:"); scanf("%i", &b);
 
 	printf("Co chcesz zrobic? Dzielic, dodac, mnozyc, czy odjac?");
 	

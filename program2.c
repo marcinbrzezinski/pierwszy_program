@@ -11,8 +11,9 @@ int dodaj(int a, int b){
 int main()	/* Moze byc zapisane 'int main(void)'	*/
 {
 	int a = 2, b = 6;		/* deklaracja wraz z inicjacja */
-	char wybor = '+';		/* zadeklarowanie zmiennej i jej typu */
-
+	char wybor;
+	
+	scanf("%c", &wybor);	/* czytaj z konsoli i zapisz pod wybor */
 	/* if(wyrazenie) (blok jesli wyrazenie prawdziwe)
 	   else (blok jesli wyrazenie falszywe);	*/
 

@@ -1,0 +1,6 @@
+# ignoruj pliki wykonywalny #
+
+*.o
+
+
+# ? zastepuje jeden znak a * ciag znakow #

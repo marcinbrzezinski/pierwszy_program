@@ -22,7 +22,6 @@ int main()	/* Moze byc zapisane 'int main(void)'	*/
 	}else{
 		 printf("Wynik dodawania: %i\n", dodaj(a,b));
 	};/* <= ten srednik jest opcjonalny jesli wystepuje klamra*/
-	/* 'else' jest opcjonalne*/
 
 	return 0;
 }
